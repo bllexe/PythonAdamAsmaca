@@ -77,7 +77,7 @@ while True:
         cevap = input("Kelimeyi  Tahmin Edin: ")
         
         if cevap == sehirler:
-            print("Kazandınız!nn")
+            print("Win")
             break
         else:
             while True:
@@ -89,8 +89,8 @@ while True:
             hak += 1
         
         if hak >= len(sehirler):
-            print("Kaybettiniz!")
+            print("Lose")
             break
         
-    if not "y" == input("Tekrar Oynamamak icin  (y/n): "):
+    if not "y" == input("RePlay  (y/n): "):
         break
